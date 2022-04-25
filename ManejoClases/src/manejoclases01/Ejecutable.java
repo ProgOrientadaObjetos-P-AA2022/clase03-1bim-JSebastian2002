@@ -15,10 +15,11 @@ public class Ejecutable {
         hospital.nombre = "Isidro Ayora";
         hospital.numeroCamas = 100;
         hospital.presupuesto = 560340.43;
+        hospital.pacientes = 100;
         
         // Se presenta valores en pantalla
-        System.out.printf("%s - %d - %.2f\n", hospital.nombre,
-                hospital.numeroCamas, hospital.presupuesto);
+        System.out.printf("%s - %d - %.2f %d\n", hospital.nombre,
+                hospital.numeroCamas, hospital.presupuesto, hospital.pacientes,hospital.pacientes);
         
         // System.out.println(hospital.nombre + "-" + hospital.numeroCamas);
     }

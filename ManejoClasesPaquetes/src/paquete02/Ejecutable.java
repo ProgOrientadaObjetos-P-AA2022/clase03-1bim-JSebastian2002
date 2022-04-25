@@ -22,9 +22,11 @@ public class Ejecutable {
         // hospital.nombre = "Isidro Ayora";
         hospital.establecerNombre("Isidro Ayora");
         // hospital.numeroCamas = 100;
-        hospital.establecerNumeroCamas(100);
+        hospital.establecerNumeroCamas(200);
         // hospital.presupuesto = 560340.43;
-        hospital.establecerPresupuesto(5603.43);
+        hospital.establecerPresupuesto(6732.38);
+        hospital.establecerPacientes(200);
+        
         
         // Se presenta valores en pantalla, rescatando los valores
         // que se necesita a través de los métodos obtener del
